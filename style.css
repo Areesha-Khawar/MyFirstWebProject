@@ -1,0 +1,100 @@
+
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 850px;
+    margin: 20px auto;
+    background-color: rgb(244, 238, 235);
+    border: 2px solid rgb(83, 59, 42);
+    padding: 10px;
+}
+
+
+#header {
+    background-color: rgb(181, 117, 60);
+    border: 2px solid rgb(66, 45, 17);
+    text-align: right;
+    padding: 10px;
+}
+
+    #header h1 {
+        color: rgb(128, 58, 0);
+        margin: 0;
+    }
+
+.tagline {
+    font-style: italic;
+    color: rgb(166, 120, 80);
+    font-size: 14px;
+}
+
+.entry p {
+    color: rgb(16, 0, 3);
+}
+
+#sidebar {
+    float: left;
+     margin-top:10px;
+    width: 200px;
+    background-color: rgb(251, 200, 152);
+    border: 6px solid rgb(70, 41, 10);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+    #sidebar h2 {
+        color: rgb(53, 40, 9);
+        margin-top: 0;
+
+    }
+
+    #sidebar ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    #sidebar a {
+        color: rgb(240, 224, 166);
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px dashed rgb(239, 217, 170);
+    }
+
+
+#content {
+    margin-left: 230px;
+    padding: 10px;
+}
+
+.entry {
+    background-color: rgb(238, 225, 174);
+    border: 2px solid rgb(97, 76, 41);
+    margin-bottom: 15px;
+    padding: 10px;
+    overflow: auto;
+}
+
+    .entry h3 {
+        color: rgb(16, 12, 1);
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+.date {
+    color: rgb(103, 63, 6);
+    font-weight: bold;
+}
+
+.entryimg {
+    float: right;
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+    border: 1px solid rgb(54, 41, 10);
+}
+
+
